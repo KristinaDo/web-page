@@ -1,0 +1,119 @@
+.body{
+    text-align: center;
+    color: rgb(35, 65, 66);
+    font-size: 1.5rem;
+    background-color: rgb(237, 245, 244);
+}
+
+.top-text{
+    color: rgb(15, 30, 31);
+}
+.top-container{
+    font-family: Patrick Hand, serif;
+    display: block;
+    background-color: rgb(209, 239, 240);
+    height: 700px;
+    width: 100%;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.top-picture{
+    margin-top: 100px;
+    height: 250 px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+
+
+.about > h1 {
+    font-family: Patrick Hand, serif;
+    margin: 20px;
+    font-weight: bold;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.35fr 1fr;
+    grid-template-rows:  repeat (5, auto);
+    row-gap: 20px;
+    column-gap: 0px;
+    text-align: left;
+    margin: 50px 10px 10px 50px;
+    font-family: Athiti, sans-serif;
+    font-size: 1.25rem;
+}
+
+.grid-container h3{
+    font-style: oblique;
+    color: rgb(39, 62, 105);
+}
+
+.grid-image{
+    width: 30%;
+    margin-left: 20px;
+
+}
+
+.flex-image{
+    width: 200px;
+    height: 200px;
+}
+
+
+.bottom-container{
+    font-family: Patrick Hand, serif;
+    padding: 30px;
+
+}
+
+.thank-you{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 2rem;
+}
+
+.button{
+    background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+.button:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+
+  .footer{
+    display: block;
+    font-family: Athiti, sans-serif;
+    background-color: #11cdd4;
+    padding: 50px 0px;
+    margin-top: 10px;
+  }
+
+  .footer-link{
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+  }
+
+  .copyright{
+    font-size: 1rem;
+  }
